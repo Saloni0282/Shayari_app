@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const keyword = keywordInput.value.trim();
         if (keyword) {
             try {
-                const response = await fetch('http://localhost:3000/shayari', {
+                const response = await fetch('https://shayari-ml9c.onrender.com/shayari', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
